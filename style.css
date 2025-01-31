@@ -51,6 +51,21 @@
     justify-items: end;
 }
 
+.main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+.projects_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.projects_title {
+    grid-column: 1 / -1;
+}
+
 /* .nav_head,
 .nav_item {
     align-self: start;
