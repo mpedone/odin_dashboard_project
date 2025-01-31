@@ -1,151 +1,159 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Odin Dashboard Project</title>
 </head>
 <body>
-    <header>
-        <search>
-            <form action="" class="searchbar">
-                <label for="search">></label>
-                <input type="search" name="search" id="search">
-            </form>
-            <p>^</p>
-            <p>av</p>
-            <p>Morgan Oakley</p>
-        </search>
-        <controls>
-            <p>img</p>
-            <p>Hi there,</p>
-            <p>Morgan Oakley</p>
-            <ul>
-                <li><button>New</button></li>
-                <li><button>Upload</button></li>
-                <li><button>Share</button></li>
-            </ul>
-        </controls>
-    </header>
+    <div class="body_container">
+        <div class="nav">
+            <div class="nav_head_img">img</div>
+            <div class="nav_head">
+                <p>Dashboard</p>
+            </div>
+            <div></div>
+            <div></div>
+            <div class="nav_img">img</div>
+            <div class="nav_item">
+                <p>Home</p>
+            </div>
+            <div class="nav_img">img</div>
+            <div class="nav_item">
+                <p>Profile</p>
+            </div>
+            <div class="nav_img">img</div>
+            <div class="nav_item">
+                <p>Messages</p>
+            </div>
+            <div class="nav_img">img</div>
+            <div class="nav_item">
+                <p>History</p>
+            </div>
+            <div class="nav_img">img</div>
+            <div class="nav_item">
+                <p>Tasks</p>
+            </div>
+            <div class="nav_img">img</div>
+            <div class="nav_item">
+                <p>Communities</p>
+            </div>
+            <div></div>
+            <div></div>
+            <div class="nav_img">img</div>
+            <div class="nav_item">
+                <p>Settings</p>
+            </div>
+            <div class="nav_img">img</div>
+            <div class="nav_item">
+                <p>Support</p>
+            </div>
+            <div class="nav_img">img</div>
+            <div class="nav_item">
+                <p>Privacy</p>
+            </div>
+        </div>
+        <div class="header">
+            <search class="search_header">
+                <form action="" class="searchbar">
+                    <label for="search">></label>
+                    <input type="search" name="search" id="search">
+                </form>
+                <p>^</p>
+                <p>av</p>
+                <p>Morgan Oakley</p>
+            </search>
+            <controls class="controls_header">
+                <p>img</p>
+                <p>Hi there,</p>
+                <p>Morgan Oakley</p>
+                <ul>
+                    <li><button>New</button></li>
+                    <li><button>Upload</button></li>
+                    <li><button>Share</button></li>
+                </ul>
+            </controls>
+        </div>
+        <div class="main">
+            <projects class="projects_container">
+                <div class="projects_title">
+                    <h1>Your Projects</h1>
+                </div>
+                <div class="card">
+                    <h2>Super Cool Project</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident necessitatibus atque dignissimos ad tempore, laboriosam obcaecati. Blanditiis est repellendus in optio! Sapiente deleniti cum earum tempora asperiores iure quaerat molestias.</p>
+                    <p class="card_img">a</p>
+                    <p class="card_img">b</p>
+                    <p class="card_img">c</p>
+                </div>
+                <div class="card">
+                    <h2>Less Cool Project</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi veniam, amet cum facilis ullam modi sunt nobis impedit. Neque dolore dicta molestias esse maxime accusantium omnis voluptatem id minus et!</p>
+                    <p class="card_img">a</p>
+                    <p class="card_img">b</p>
+                    <p class="card_img">c</p>
+                </div>
+                <div class="card">
+                    <h2>Impossible App</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi veniam, amet cum facilis ullam modi sunt nobis impedit. Neque dolore dicta molestias esse maxime accusantium omnis voluptatem id minus et!</p>
+                    <p class="card_img">a</p>
+                    <p class="card_img">b</p>
+                    <p class="card_img">c</p>
+                </div>
+                <div class="card">
+                    <h2>Easy Peasy App</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi veniam, amet cum facilis ullam modi sunt nobis impedit. Neque dolore dicta molestias esse maxime accusantium omnis voluptatem id minus et!</p>
+                    <p class="card_img">a</p>
+                    <p class="card_img">b</p>
+                    <p class="card_img">c</p>
+                </div>
+                <div class="card">
+                    <h2>Ad Blocker</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi veniam, amet cum facilis ullam modi sunt nobis impedit. Neque dolore dicta molestias esse maxime accusantium omnis voluptatem id minus et!</p>
+                    <p class="card_img">a</p>
+                    <p class="card_img">b</p>
+                    <p class="card_img">c</p>
+                </div>
+                <div class="card">
+                    <h2>Money Maker</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi veniam, amet cum facilis ullam modi sunt nobis impedit. Neque dolore dicta molestias esse maxime accusantium omnis voluptatem id minus et!</p>
+                    <p class="card_img">a</p>
+                    <p class="card_img">b</p>
+                    <p class="card_img">c</p>
+                </div>
+            </projects>
+            <sidebar class="sidebar">
+                <div class="sidebar_top">
+                    <div class="announcement"></div>
+                    <div class="announcement"></div>
+                    <div class="announcement"></div>
+                </div>
+                <div class="sidebar_bottom">
+                    <div class="trending">
+                        <p>img</p>
+                        <p>@tegan</p>
+                        <p>World Peace Builder</p>
+                    </div>
+                    <div class="trending">
+                        <p>img</p>
+                        <p>@morgan</p>
+                        <p>Super Cool Project</p>
+                    </div>
+                    <div class="trending">
+                        <p>img</p>
+                        <p>@kendall</p>
+                        <p>Life Changing App</p>
+                    </div>
+                    <div class="trending">
+                        <p>img</p>
+                        <p>@alex</p>
+                        <p>No Traffic Maker</p>
+                    </div>
+                </div>
+            </sidebar>
+        </div>
+    </div>
 
-    <nav>
-        <div class="nav_head_img">img</div>
-        <div class="nav_head">
-            <p>Dashboard</p>
-        </div>
-        <div class="nav_img">img</div>
-        <div class="nav_item">
-            <p>Home</p>
-        </div>
-        <div class="nav_img">img</div>
-        <div class="nav_item">
-            <p>Profile</p>
-        </div>
-        <div class="nav_img">img</div>
-        <div class="nav_item">
-            <p>Messages</p>
-        </div>
-        <div class="nav_img">img</div>
-        <div class="nav_item">
-            <p>History</p>
-        </div>
-        <div class="nav_img">img</div>
-        <div class="nav_item">
-            <p>Tasks</p>
-        </div>
-        <div class="nav_img">img</div>
-        <div class="nav_item">
-            <p>Communities</p>
-        </div>
-        <div class="nav_img">img</div>
-        <div class="nav_item">
-            <p>Settings</p>
-        </div>
-        <div class="nav_img">img</div>
-        <div class="nav_item">
-            <p>Support</p>
-        </div>
-        <div class="nav_img">img</div>
-        <div class="nav_item">
-            <p>Privacy</p>
-        </div>
-    </nav>
-
-    <projects class="projects_container">
-        <div class="projects_title">
-            <h1>Your Projects</h1>
-        </div>
-        <div class="card">
-            <h2>Super Cool Project</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident necessitatibus atque dignissimos ad tempore, laboriosam obcaecati. Blanditiis est repellendus in optio! Sapiente deleniti cum earum tempora asperiores iure quaerat molestias.</p>
-            <p class="card_img">a</p>
-            <p class="card_img">b</p>
-            <p class="card_img">c</p>
-        </div>
-        <div class="card">
-            <h2>Less Cool Project</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi veniam, amet cum facilis ullam modi sunt nobis impedit. Neque dolore dicta molestias esse maxime accusantium omnis voluptatem id minus et!</p>
-            <p class="card_img">a</p>
-            <p class="card_img">b</p>
-            <p class="card_img">c</p>
-        </div>
-        <div class="card">
-            <h2>Impossible App</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi veniam, amet cum facilis ullam modi sunt nobis impedit. Neque dolore dicta molestias esse maxime accusantium omnis voluptatem id minus et!</p>
-            <p class="card_img">a</p>
-            <p class="card_img">b</p>
-            <p class="card_img">c</p>
-        </div>
-        <div class="card">
-            <h2>Easy Peasy App</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi veniam, amet cum facilis ullam modi sunt nobis impedit. Neque dolore dicta molestias esse maxime accusantium omnis voluptatem id minus et!</p>
-            <p class="card_img">a</p>
-            <p class="card_img">b</p>
-            <p class="card_img">c</p>
-        </div>
-        <div class="card">
-            <h2>Ad Blocker</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi veniam, amet cum facilis ullam modi sunt nobis impedit. Neque dolore dicta molestias esse maxime accusantium omnis voluptatem id minus et!</p>
-            <p class="card_img">a</p>
-            <p class="card_img">b</p>
-            <p class="card_img">c</p>
-        </div>
-        <div class="card">
-            <h2>Money Maker</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi veniam, amet cum facilis ullam modi sunt nobis impedit. Neque dolore dicta molestias esse maxime accusantium omnis voluptatem id minus et!</p>
-            <p class="card_img">a</p>
-            <p class="card_img">b</p>
-            <p class="card_img">c</p>
-        </div>
-    </projects>
-
-    <sidebar>
-        <div class="top">
-            <div class="announcement"></div>
-            <div class="announcement"></div>
-            <div class="announcement"></div>
-        </div>
-        <div class="bottom">
-            <div class="trending">
-                <p>img</p>
-                <p>@tegan</p>
-                <p>World Peace Builder</p>
-            </div>
-            <div class="trending">
-                <p>img</p>
-                <p>@morgan</p>
-                <p>Super Cool Project</p>
-            </div>
-            <div class="trending">
-                <p>img</p>
-                <p>@kendall</p>
-                <p>Life Changing App</p>
-            </div>
-            <div class="trending">
-                <p>img</p>
-                <p>@alex</p>
-                <p>No Traffic Maker</p>
-            </div>
-        </div>
-    </sidebar>
 </body>
 </html>
