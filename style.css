@@ -66,6 +66,12 @@
     grid-column: 1 / -1;
 }
 
+.card_actions {
+    display: grid;
+    grid-template-columns: repeat(3, 20px);
+    justify-content: end;
+}
+
 /* .nav_head,
 .nav_item {
     align-self: start;
