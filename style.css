@@ -6,6 +6,7 @@
 
 body {
     padding: 40px;
+    /* background-color: #1992D3; */
 }
 
 .body_container {
@@ -81,6 +82,17 @@ body {
     gap: 10px;
 }
 
+p.card_img_a {
+    content: url(./images/Codicon_Star_Empty.svg);
+}
+
+p.card_img_b {
+    content: url(./images/Codicon_Eye.svg);
+}
+
+p.card_img_c {
+    content: url(./images/Codicons_Forked_Icon.svg);
+}
 /* .nav_head,
 .nav_item {
     align-self: start;
