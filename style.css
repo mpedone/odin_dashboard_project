@@ -44,25 +44,74 @@ body {
 .header {
     display: grid;
     grid-template-rows: 50px 100px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     background-color: #FFFFFF;
+    padding: 5px 40px;
+    align-items: center;
+}
+
+.searchbar {
+    display: grid;
+    grid-template-columns: 1fr 20fr;
+    align-items: center;
+}
+
+input[type="search"] {
+    appearance: none;
+    height: 30px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #E2E8F0;
+    border: none;
+}
+
+.searchbar img {
+    width: 16px;
 }
 
 .profile {
     display: grid;
-    grid-template-columns: 1fr 1fr 3fr;
+    grid-template-columns: 30px 40px 110px;
+    align-items: center;
+    justify-content: end;
+    column-gap: 10px;
+}
+
+.profile_name {
+    font-weight: bold;
+    font-size: 0.9rem;
 }
 
 .greeting {
     display: grid;
-    grid-template-rows: 50px 50px;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 50px 4fr;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.greet {
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.username {
+    font-size: 1.4rem;
+    font-weight: bold;
 }
 
 .buttons {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     list-style-type: none;
+}
+
+.buttons button {
+    background-color: #1992D3;
+    color: white;
+    width: 75px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
 }
 
 .avatar {
