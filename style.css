@@ -24,7 +24,7 @@ body {
     column-gap: 10px;
     background-color: #1992D3;
     padding: 20px;
-    font-weight: bold;
+    font-weight: 600;
     color: #FFFFFF;
 }
 
@@ -78,7 +78,7 @@ input[type="search"] {
 }
 
 .profile_name {
-    font-weight: bold;
+    font-weight: 600;
     font-size: 0.9rem;
 }
 
@@ -91,12 +91,12 @@ input[type="search"] {
 
 .greet {
     font-size: 0.6rem;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .username {
     font-size: 1.2rem;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .buttons {
@@ -134,6 +134,7 @@ input[type="search"] {
     grid-template-columns: 3fr 1fr;
     gap: 20px;
     background-color: #E2E8F0;
+    padding: 30px 20px;
 }
 
 .projects_container {
@@ -179,7 +180,30 @@ p.card_img_b {
 p.card_img_c {
     content: url(./images/Codicons_Forked_Icon.svg);
 }
-/* .nav_head,
-.nav_item {
-    align-self: start;
-} */
+
+.main h1 {
+    font-size: 1rem;
+}
+
+.main h2 {
+    font-size: 0.9rem;
+}
+
+.main h3 {
+    font-size: 0.8rem;
+}
+
+.main h1, 
+.main h2, 
+.main h3 {
+    font-weight: 500;
+}
+
+.main{
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.sidebar p {
+    font-size: 0.7rem;
+}
