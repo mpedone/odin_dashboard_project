@@ -146,6 +146,14 @@ input[type="search"] {
     grid-column: 1 / -1;
 }
 
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    border-left: 5px solid #f9a922;
+    padding: 30px 20px;
+    width: 35ch;
+}
+
 .card_actions {
     display: grid;
     grid-template-columns: repeat(3, 20px);
