@@ -43,7 +43,7 @@ body {
 
 .header {
     display: grid;
-    grid-template-rows: 50px 100px;
+    grid-template-rows: 1fr 2fr;
     grid-template-columns: 2fr 1fr;
     background-color: #FFFFFF;
     padding: 5px 40px;
